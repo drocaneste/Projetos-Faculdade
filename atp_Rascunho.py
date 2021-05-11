@@ -1,4 +1,4 @@
-# ATP Raciocinio Computacional                  #
+# ATP Raciocinio Logico                         #
 # Aluno: Michael Nicholas O. Castilho           #
 # Prof/Tutor: Lucas Emanuel Silva E Oliveira    #
 # Turma: 11100010563_20211_02                   #
@@ -12,9 +12,9 @@ def obter_limite():
 
       nome_cliente=  input('Nome Completo: ')
       
-      nome = ('**************')
+      nome = ('Michael Nicholas')
       
-      sobrenome = ('************')
+      sobrenome = ('Oliveira de Castilho')
       
       cargo = input('Informe sua FUNCAO : ')
       
