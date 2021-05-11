@@ -1,5 +1,5 @@
 # ATP Raciocinio Logico                         #
-# Aluno: Michael Nicholas O. Castilho           #
+# Aluno: Michael N.                             #
 # Prof/Tutor: Lucas Emanuel Silva E Oliveira    #
 # Turma: 11100010563_20211_02                   #
 #################################################
@@ -39,8 +39,6 @@ def obter_limite():
 
       sleep (4)
 
-      print (10*'- - ')
-      print (10*'- - ')
       print (10*'- - ')
       
       
@@ -84,7 +82,7 @@ def verificar_produto(valor_produto, limite, desconto1,n1):
 
             sleep(2)
 
-            if valor_produto <= desconto1 and (valor_produto - n1) != 0:
+            if valor_produto <= desconto1 and (valor_produto - n1) > 0:
             
                   print('voce tem um desconto de {}% no produto'.format(n1))
 
@@ -100,7 +98,7 @@ def verificar_produto(valor_produto, limite, desconto1,n1):
 
             sleep(2)
 
-            if valor_produto <= desconto1 and (valor_produto - n1) != 0:
+            if valor_produto <= desconto1 and (valor_produto - n1) > 0:
 
                   print('voce tem um desconto de {}% no produto'.format(n1))
 
@@ -116,7 +114,7 @@ def verificar_produto(valor_produto, limite, desconto1,n1):
 
             sleep(2)
 
-            if valor_produto <= desconto1 and (valor_produto - n1) != 0:
+            if valor_produto <= desconto1 and (valor_produto - n1) > 0:
 
                   print('voce tem um desconto de {}% no produto'.format(n1))
 
@@ -159,9 +157,6 @@ input('Pressione ENTER para continuar!!')
 
 nome,sobrenome,limite,anos = obter_limite()
 
-print (10*'- - ')
-print (10*'- - ')
-print (10*'- - ',end='\n')
 
 numero_produto= int(input('Por gentileza ,digite a quantia de produtos  que deseja cadastrar:'))
 
