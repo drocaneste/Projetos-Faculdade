@@ -12,9 +12,9 @@ def obter_limite():
 
       nome_cliente=  input('Nome Completo: ')
       
-      nome = ('Michael Nicholas')
+      nome = ('***********')
       
-      sobrenome = ('Oliveira de Castilho')
+      sobrenome = ('**************')
       
       cargo = input('Informe sua FUNCAO : ')
       
@@ -31,7 +31,7 @@ def obter_limite():
       data = date.today()
       ano = int(data.strftime ('%Y'))
       anos = ano - ano_nasc
-      limite = (salario * (anos/1.000)+100)
+      limite = (salario * (anos/1000)+100)
       
 # PRINTAR INFORMACOES #
 
