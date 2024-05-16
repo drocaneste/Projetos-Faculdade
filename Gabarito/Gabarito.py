@@ -63,5 +63,5 @@ mail.Send()
 print('Email Enviado')
 
 
-# Caso deseje torna - lo um arquivo Executavel ultilize o comando  pyinstaller --onefile NomedoArquivo
+# Caso deseje torna - lo um arquivo Executavel ultilize o comando  pyinstaller --onefile NomedoArquivo.py
 
